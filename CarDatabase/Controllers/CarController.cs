@@ -8,7 +8,7 @@ namespace CarDatabase.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+// [Authorize]   // ⬅️ ДЛЯ ЛАБЫ ВРЕМЕННО ОТКЛЮЧАЕМ
 public class CarController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
